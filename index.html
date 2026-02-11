@@ -229,8 +229,8 @@ footer .container{display:flex;justify-content:space-between;align-items:center}
   .sec-label{font-size:11px;letter-spacing:2.5px;margin-bottom:6px}
   .sec-title{margin-bottom:10px}
 
-  /* Hero — tighter, balanced */
-  #hero{min-height:auto;padding:80px 20px 48px;display:flex;align-items:flex-start}
+  /* Hero — full viewport, nothing below fold */
+  #hero{min-height:100vh;min-height:100dvh;padding:80px 20px 48px;display:flex;align-items:center;justify-content:center}
   .hero-badge{font-size:12px;padding:5px 14px;margin-bottom:20px}
   .hero-title{font-size:clamp(38px,10vw,52px)}
   .hero-sub{font-size:15px;margin-bottom:24px;line-height:1.65}
@@ -340,7 +340,7 @@ footer .container{display:flex;justify-content:space-between;align-items:center}
 }
 @media(max-width:480px){
   .container{padding:0 16px}
-  #hero{padding:72px 16px 40px}
+  #hero{padding:72px 16px 40px;min-height:100vh;min-height:100dvh}
   .hero-title{font-size:34px}
   .hero-badge{font-size:11px;padding:4px 12px;margin-bottom:16px}
   .hero-sub{font-size:14px}
@@ -353,7 +353,7 @@ footer .container{display:flex;justify-content:space-between;align-items:center}
   .explorin-title{font-size:24px}
   .explorin-hero{padding:20px 16px}
   .explorin-stats{grid-template-columns:1fr 1fr!important}
-  .explorin-links{grid-template-columns:1fr}
+  .explorin-links{grid-template-columns:1fr 1fr}
   .ex-stat-val{font-size:20px}
   .purpose-quote{font-size:20px}
   .thesis-card{padding:20px 14px}
