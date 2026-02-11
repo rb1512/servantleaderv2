@@ -224,130 +224,153 @@ footer .container{display:flex;justify-content:space-between;align-items:center}
   .container{padding:0 20px}
 
   /* Sections spacing */
-  section{padding:56px 0!important}
-  .sec-head{margin-bottom:40px}
-  .sec-label{font-size:11px;letter-spacing:2.5px;margin-bottom:8px}
-  .sec-title{margin-bottom:12px}
+  section{padding:48px 0!important}
+  .sec-head{margin-bottom:32px}
+  .sec-label{font-size:11px;letter-spacing:2.5px;margin-bottom:6px}
+  .sec-title{margin-bottom:10px}
 
-  /* Hero */
-  #hero{min-height:auto;padding:100px 20px 64px}
-  .hero-badge{font-size:12px;padding:5px 14px;margin-bottom:24px}
-  .hero-sub{font-size:16px;margin-bottom:32px}
-  .hero-divider{margin-bottom:28px}
-  .hero-meta{font-size:13px;line-height:1.6}
-  .hero-links{flex-direction:column;gap:12px;margin-top:20px}
+  /* Hero — tighter, balanced */
+  #hero{min-height:auto;padding:80px 20px 48px;display:flex;align-items:flex-start}
+  .hero-badge{font-size:12px;padding:5px 14px;margin-bottom:20px}
+  .hero-title{font-size:clamp(38px,10vw,52px)}
+  .hero-sub{font-size:15px;margin-bottom:24px;line-height:1.65}
+  .hero-divider{margin-bottom:20px}
+  .hero-meta{font-size:12px;line-height:1.6}
+  .hero-links{flex-direction:column;gap:10px;margin-top:20px}
   .hero-link{padding:10px 20px;font-size:13px;width:100%;justify-content:center}
 
   /* Axioms */
-  .axioms-section{padding:72px 0!important}
-  .axioms-grid{grid-template-columns:1fr;gap:10px}
-  .axiom-card{padding:28px 20px 32px}
+  .axioms-section{padding:48px 0!important}
+  .axioms-grid{grid-template-columns:1fr;gap:8px}
+  .axiom-card{padding:22px 18px 26px}
   .axiom-card::before{border-radius:14px!important}
-  .axiom-chosen{font-size:28px}
-  .axiom-rejected{font-size:20px}
-  .axiom-divider{font-size:10px;margin:6px 0}
+  .axiom-chosen{font-size:26px}
+  .axiom-rejected{font-size:18px}
+  .axiom-divider{font-size:10px;margin:5px 0}
+  .axiom-glyph{font-size:16px;top:12px;right:12px}
 
   /* Thesis */
-  .thesis-grid{grid-template-columns:1fr;gap:28px}
-  .thesis-card{padding:28px 20px}
-  .thesis-col{padding-left:16px}
-  .thesis-text{font-size:15px;line-height:1.7}
-  .shift-callout{padding:20px;margin-top:24px}
-  .shift-callout p{font-size:14px;line-height:1.7}
+  .thesis-grid{grid-template-columns:1fr;gap:24px}
+  .thesis-card{padding:24px 18px}
+  .thesis-col{padding-left:14px}
+  .thesis-text{font-size:14px;line-height:1.7}
+  .shift-callout{padding:18px;margin-top:20px}
+  .shift-callout p{font-size:13px;line-height:1.7}
 
   /* Purpose */
-  .purpose-quote{font-size:24px;margin-bottom:24px}
-  .purpose-desc{font-size:15px}
+  .purpose-quote{font-size:22px;margin-bottom:20px}
+  .purpose-desc{font-size:14px}
 
   /* Framework */
-  .fw-grid{grid-template-columns:1fr}
-  .fw-card{padding:28px 22px}
-  .fw-name{font-size:22px}
+  .fw-grid{grid-template-columns:1fr;gap:12px}
+  .fw-card{padding:24px 20px}
+  .fw-name{font-size:20px}
   .fw-desc{font-size:13px}
+  .fw-num{font-size:10px;margin-bottom:8px}
 
   /* Track Record */
-  .mission-small{grid-template-columns:1fr;text-align:center;padding:24px 20px;gap:16px}
-  .mission-metric{border-left:none;border-top:1px solid rgba(51,65,85,.5);padding-top:16px;padding-left:0}
-  .mission-name{font-size:20px}
+  .mission-small{grid-template-columns:1fr;text-align:center;padding:20px 18px;gap:14px}
+  .mission-metric{border-left:none;border-top:1px solid rgba(51,65,85,.5);padding-top:14px;padding-left:0}
+  .mission-name{font-size:18px}
   .mission-body{font-size:13px}
 
   /* Explorin */
-  .explorin-hero{padding:28px 20px}
-  .explorin-title{font-size:32px}
-  .explorin-desc{font-size:14px}
-  .explorin-stats{grid-template-columns:1fr 1fr!important;gap:12px}
-  .ex-stat{padding:18px 12px}
-  .ex-stat-val{font-size:26px}
-  .ex-stat-label{font-size:11px}
-  .explorin-links{grid-template-columns:1fr 1fr;gap:10px}
-  .ex-link{padding:16px 10px}
-  .ex-link-icon{font-size:20px}
-  .ex-link-name{font-size:12px}
-  .ex-link-sub{font-size:10px}
+  .explorin-hero{padding:24px 18px}
+  .explorin-title{font-size:28px}
+  .explorin-desc{font-size:13px;line-height:1.7}
+  .explorin-stats{grid-template-columns:1fr 1fr!important;gap:10px}
+  .ex-stat{padding:16px 10px}
+  .ex-stat-val{font-size:22px}
+  .ex-stat-label{font-size:10px}
+  .explorin-links{grid-template-columns:1fr 1fr;gap:8px}
+  .ex-link{padding:14px 8px}
+  .ex-link-icon{font-size:18px}
+  .ex-link-name{font-size:11px}
+  .ex-link-sub{font-size:9px}
+  .mission-dur{font-size:10px!important}
 
   /* Dreamers */
-  .dreamer-grid{grid-template-columns:1fr;gap:10px}
-  .dreamer{padding:20px 18px}
-  .dreamer-name{font-size:17px}
+  .dreamer-grid{grid-template-columns:1fr;gap:8px}
+  .dreamer{padding:18px 16px}
+  .dreamer-name{font-size:16px}
   .dreamer-story{font-size:12px}
-  .dreamer-more{font-size:16px}
+  .dreamer-more{font-size:15px;margin-top:14px}
 
   /* Bring */
   .bring-grid{grid-template-columns:1fr}
-  .bring-card{padding:24px 20px}
-  .bring-icon{font-size:24px;margin-bottom:8px}
+  .bring-card{padding:20px 18px}
+  .bring-icon{font-size:22px;margin-bottom:6px}
   .bring-name{font-size:15px}
   .bring-note{font-size:12px}
 
   /* Evidence */
-  .evidence-grid{grid-template-columns:1fr;gap:10px}
-  .ev-item{padding:16px 18px;gap:12px}
-  .ev-icon{font-size:18px}
+  .evidence-grid{grid-template-columns:1fr;gap:8px}
+  .ev-item{padding:14px 16px;gap:12px}
+  .ev-icon{font-size:16px}
   .ev-label{font-size:10px}
-  .ev-title{font-size:13px}
+  .ev-title{font-size:12px}
 
   /* FAQ */
-  .faq-q{padding:20px}
-  .faq-q-text{font-size:18px}
-  .faq-arrow{width:24px;height:24px;font-size:12px}
-  .faq-a-inner{padding:0 20px 20px;font-size:14px;line-height:1.75}
-  .faq-sub-item{padding:16px 18px}
-  .faq-sub-title{font-size:17px}
-  .faq-sub-text{font-size:13px;line-height:1.7}
-  .faq-reason{padding:10px 16px;margin-bottom:10px}
-  .faq-reason p{font-size:13px}
+  .faq-q{padding:18px 16px}
+  .faq-q-text{font-size:17px}
+  .faq-arrow{width:24px;height:24px;font-size:11px}
+  .faq-a-inner{padding:0 16px 18px;font-size:13px;line-height:1.7}
+  .faq-sub-item{padding:14px 16px}
+  .faq-sub-title{font-size:16px}
+  .faq-sub-text{font-size:12px;line-height:1.7}
+  .faq-reason{padding:10px 14px;margin-bottom:8px}
+  .faq-reason p{font-size:12px}
+  .faq-reason-label{font-size:9px}
 
   /* Ask */
-  .ask-card{padding:36px 20px}
-  .ask-desc{font-size:15px;margin-bottom:28px}
-  .ask-ctas{flex-direction:column;gap:12px}
-  .ask-cta-primary,.ask-cta-secondary{width:100%;justify-content:center;padding:14px 24px}
+  .ask-card{padding:32px 18px}
+  .ask-title{font-size:clamp(24px,6vw,36px)}
+  .ask-desc{font-size:14px;margin-bottom:24px}
+  .ask-ctas{flex-direction:column;gap:10px}
+  .ask-cta-primary,.ask-cta-secondary{width:100%;justify-content:center;padding:13px 20px}
 
   /* Footer */
-  footer .container{flex-direction:column;gap:16px;text-align:center}
+  footer{padding:32px 0}
+  footer .container{flex-direction:column;gap:14px;text-align:center}
   .footer-links{gap:16px}
+  .footer-brand{font-size:18px}
+
+  /* Divider */
+  .divider{width:100px}
 }
 @media(max-width:480px){
   .container{padding:0 16px}
-  #hero{padding:90px 16px 48px}
-  .hero-title{font-size:36px}
-  .hero-sub{font-size:15px}
-  .hero-meta{font-size:12px}
-  .sec-title{font-size:28px}
-  .axiom-chosen{font-size:24px}
-  .axiom-rejected{font-size:17px}
-  .explorin-title{font-size:26px}
+  #hero{padding:72px 16px 40px}
+  .hero-title{font-size:34px}
+  .hero-badge{font-size:11px;padding:4px 12px;margin-bottom:16px}
+  .hero-sub{font-size:14px}
+  .hero-meta{font-size:11px}
+  .sec-title{font-size:26px}
+  .sec-label{font-size:10px;letter-spacing:2px}
+  .axiom-chosen{font-size:22px}
+  .axiom-rejected{font-size:16px}
+  .axiom-card{padding:18px 16px 22px}
+  .explorin-title{font-size:24px}
+  .explorin-hero{padding:20px 16px}
   .explorin-stats{grid-template-columns:1fr 1fr!important}
   .explorin-links{grid-template-columns:1fr}
-  .purpose-quote{font-size:22px}
-  .thesis-card{padding:24px 16px}
-  .thesis-col{padding-left:14px}
-  .shift-callout{padding:16px}
-  .shift-callout p{font-size:13px}
-  .faq-q-text{font-size:16px}
-  .faq-sub-title{font-size:15px}
-  .ask-title{font-size:26px}
-  .ask-desc{font-size:14px}
+  .ex-stat-val{font-size:20px}
+  .purpose-quote{font-size:20px}
+  .thesis-card{padding:20px 14px}
+  .thesis-col{padding-left:12px}
+  .thesis-text{font-size:13px}
+  .shift-callout{padding:14px}
+  .shift-callout p{font-size:12px}
+  .faq-q-text{font-size:15px}
+  .faq-q{padding:16px 14px}
+  .faq-sub-title{font-size:14px}
+  .faq-a-inner{padding:0 14px 16px;font-size:12px}
+  .ask-title{font-size:24px}
+  .ask-desc{font-size:13px}
+  .ask-card{padding:28px 16px}
+  section{padding:40px 0!important}
+  .axioms-section{padding:40px 0!important}
+  .sec-head{margin-bottom:28px}
 }
 </style>
 </head>
